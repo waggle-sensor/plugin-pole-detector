@@ -1,0 +1,12 @@
+name: "pole-detector"
+description: "U-Net for pole detection. There is still a bug I will address asap."
+version: "0.1.0"
+source:
+  architectures:
+    - "linux/amd64"
+    - "linux/arm64"
+    - "linux/arm/v7"
+  url: "https://github.com/thejeffreyli/pole-detector"
+  branch: "main"
+  testing:
+    command: ["main.py"]
