@@ -1,6 +1,8 @@
 # NEON Pole Detection
 
-U-Net for pole detection. Disclaimer: There is still a bug I will address asap. 
+This is a simple plugin for running snow rod segmentation using UNet CNN framework. The input is an image with snow rods andthe output is a binary image (with white representing snow rod pixels and black representing background).
+
+NOTE: When developing the program for detecting the snow rods, 450:200 images were used as input. These input images solely showed one snow rod. I am unsure of dimensions of Waggle inputs. Moreover, I am unsure how well this plugin will perform on images not focused directly on one snow rod. Please refer to the original program folder / logs for more details. 
 
 ## Overview
 
