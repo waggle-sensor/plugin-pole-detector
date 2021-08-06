@@ -1,4 +1,4 @@
-# NEON Pole Detection
+# NEON Pole / Snow Rod Detection
 
 This is a simple plugin for running snow rod segmentation using UNet CNN framework. The input is an image with snow rods andthe output is a binary image (with white representing snow rod pixels and black representing background).
 
